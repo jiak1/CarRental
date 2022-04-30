@@ -1,0 +1,124 @@
+{
+	"cars": [
+		{
+			"category": "Sedan",
+			"availability": true,
+			"brand": "Toyota",
+			"model": "Camry",
+			"model_year": "2013",
+			"mileage": 10000,
+			"fuel_type": "Petrol",
+			"seats": 5,
+			"price_per_day": 120,
+			"description": "The 7th generation Camry maintains a steady course. There are incremental improvements to the driveline (six-speed auto range wide) and body weight savings, returning better fuel figures and more performance. An added drivers knee airbag, brings the total to seven, range wide (Altise and Atara (S, SX, SL)), with the top model sporting similar safety equipment only recently introduced by the Europeans."
+		},
+		{
+			"category": "SUV",
+			"availability": true,
+			"brand": "Nissan",
+			"model": "X-Trail",
+			"model_year": "2015",
+			"mileage": 34560,
+			"fuel_type": "Petrol",
+			"seats": 7,
+			"price_per_day": 312,
+			"description": "Nissan's X-Trail has always headed the pack as a compact SUV with above-average load-carrying ability, plus a touch of off-road readiness. The new one is more road-focussed and offers a more accommodating interior that can be optioned up to seven-seat capability with 550 litres of luggage space available in five-seat configuration."
+		},
+		{
+			"category": "Sedan",
+			"availability": true,
+			"brand": "Volkswagen",
+			"model": "Golf",
+			"model_year": "2017",
+			"mileage": 23830,
+			"fuel_type": "CNG",
+			"seats": 5,
+			"price_per_day": 180,
+			"description": "Volkswagen's Gold features a turbocharged petrol engine that performs strongly and is fuel efficient. It's 1.4 litre four cylinder petrol engine produces 110kw/250Nm and fits well with the car's responsive steering and great handling to deliver a zippy and enjoyable ride."
+		},
+		{
+			"category": "Wagon",
+			"availability": true,
+			"brand": "Honda",
+			"model": "Civic",
+			"model_year": "2018",
+			"mileage": 78522,
+			"fuel_type": "Petrol",
+			"seats": 5,
+			"price_per_day": 230,
+			"description": "Honda's latest-generation Civic sedans and hatchbacks are a step change over previous models, especially in the power department where despite the 104kW/174Nm 1.8-litre engine remaining the price-leader, the new 127kW/220Nm 1.5-litre turbo engine makes Honda's future intentions clear."
+		},
+		{
+			"category": "Sedan",
+			"availability": true,
+			"brand": "BMW",
+			"model": "320i",
+			"model_year": "2012",
+			"mileage": 48568,
+			"fuel_type": "Diesel",
+			"seats": 5,
+			"price_per_day": 255,
+			"description": "The BMW 320i combines greater space, greater safety and lower prices with lower fuel consumption and exhaust emissions. BMW's delightful six-cylinder engines are largely replaced by a new generation of turbo fours that prove to be more efficient, more powerful and surprisingly refined. The 320i, for example, produces 135kW/270Nm from 2.0 litres for swift acceleration and an outstanding economy figure of 6.0L/100km."
+		},
+		{
+			"category": "SUV",
+			"availability": true,
+			"brand": "Holden",
+			"model": "Captiva",
+			"model_year": "2018",
+			"mileage": 32633,
+			"fuel_type": "Diesel",
+			"seats": 7,
+			"price_per_day": 342,
+			"description": "Holden's seven-seat Captiva range continues to offer an enticing deal for mid-size SUV buyers. The range of choices includes front-drive and AWD variants, along with three powerplant options: A 123kW/230Nm 2.4-litre petrol, a 190kW/288Nm 3.0-litre petrol V6 and a 135kW/400Nm 2.2-litre turbo-diesel, all driving through a six-speed auto gearbox. The six-airbag, five-star ANCAP SUV brings the customary safety lineup of stability control, brake assist, hill-descent control, rear parking sensors and a rear-view camera. The premium LTZ features leather interior trim, with heated front seats and a powered driver's seat."
+		},
+		{
+			"category": "SUV",
+			"availability": true,
+			"brand": "Jeep",
+			"model": "Cherokee",
+			"model_year": "2017",
+			"mileage": 82349,
+			"fuel_type": "Petrol",
+			"seats": 7,
+			"price_per_day": 318,
+			"description": "The latest in a long line of Cherokees, Jeep's mid-size off-roader got an upgrade early in 2018 featuring revised front-end styling with LED headlights, a retuned suspension and extra standard equipment including a base-level 7.0-inch touchscreen display incorporating Fiat Chrysler's fourth-generation Uconnect infotainment system with Apple CarPlay and Android Auto. There's a revised centre console, an extra 76mm of cargo area width and a handy capless fuel filler. Powerplants include a 130kW/229Nm 2.4-litre four-cylinder and Chrysler's 200kW/315Nm 3.2-litre Pentastar V6. A nine-speed auto transmission and 'Active Drive' AWD (either on-demand or Active Drive II with rear diff lock) are part of the Cherokee deal."
+		},
+		{
+			"category": "Wagon",
+			"availability": true,
+			"brand": "Suzuki",
+			"model": "Jimny",
+			"model_year": "2013",
+			"mileage": 102349,
+			"fuel_type": "Petrol",
+			"seats": 5,
+			"price_per_day": 224,
+			"description": "Tougher than the terrain it travels, the Suzuki Jimny is the lightweight but exceptionally capable 4x4 ready to take you places that others can't."
+		},
+		{
+			"category": "SUV",
+			"availability": true,
+			"brand": "Mercedes-Benz",
+			"model": "GLC",
+			"model_year": "2018",
+			"mileage": 52349,
+			"fuel_type": "Diesel",
+			"seats": 5,
+			"price_per_day": 298,
+			"description": "The mid-sizer GLC from Mercedes-Benz comes in two forms: The regular, practical SUV wagon and the sportier, low-slung 'coupe'. Underpinnings are shared by both. There are five engine options ' two 2.0-litre turbo-petrols producing 145kW/320Nm (rear-drive) and 190kW/370Nm (AWD), a plug-in hybrid with 155kW/350Nm, and two high-performance AMG variants including the GLC 43 using a 287kW/520Nm 3.0-litre V6 and the brutal GLC 63 S with a 375kW/700Nm 4.0-litre V8. AWD versions are capable in a wide range of operating conditions and bring, in wagon variants, a 2.5-tonne braked towing capacity as well as a big 550-litre boot (500 litres for the coupe)."
+		},
+		{
+			"category": "Sedan",
+			"availability": true,
+			"brand": "Hyundai",
+			"model": "Sonata",
+			"model_year": "2019",
+			"mileage": 52349,
+			"fuel_type": "Petrol",
+			"seats": 5,
+			"price_per_day": 214,
+			"description": "Hyundai's mid-size Sonata belongs in the sparsely-populated mid-size sedan class where the Toyota Camry reigns supreme and the Mazda6 and Skoda Octavia battle it out for second place. The ninth-generation Sonata launched in mid 2021 and could well stir things up. Previously available in two model grades, the Sonata is now available in N Line form only and brings a beguiling mix to the table. Powered by a stirring 213kW/422Nm 2.5-litre turbo-four and driving the front wheels (with a launch function) through an eight-speed dual-clutch gearbox, there's plenty of power on tap. Three driving modes normal, sport and sport+ -- help keep control the Sonata's on-road behaviour."
+		}
+	]
+}
