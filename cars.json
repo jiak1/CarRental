@@ -14,7 +14,7 @@
 		},
 		{
 			"category": "SUV",
-			"availability": true,
+			"availability": false,
 			"brand": "Nissan",
 			"model": "X-Trail",
 			"model_year": "2015",
@@ -38,7 +38,7 @@
 		},
 		{
 			"category": "Wagon",
-			"availability": true,
+			"availability": false,
 			"brand": "Honda",
 			"model": "Civic",
 			"model_year": "2018",
@@ -86,7 +86,7 @@
 		},
 		{
 			"category": "Wagon",
-			"availability": true,
+			"availability": false,
 			"brand": "Suzuki",
 			"model": "Jimny",
 			"model_year": "2013",
