@@ -14,9 +14,22 @@ $.getJSON( "cars.json", function( data ) {
 				<h2 class="text-center text-lg"><span class="font-medium">Fuel Type: </span>${car['fuel_type']}</h2>
 				<h2 class="text-center text-lg"><span class="font-medium">Seats: </span>${car['seats']}</h2>
 				<h2 class="text-center text-lg"><span class="font-medium">Price Per Day: </span>$${car['price_per_day']}</h2>
-				<h2 class="text-center text-lg"><span class="font-medium">Availabile: </span>${car['availability'] ? 'Yes' : 'No'}</h2>
+				<h2 class="text-center text-lg"><span class="font-medium">Available: </span>${car['availability'] ? 'Yes' : 'No'}</h2>
+				<button onclick="addToCart('${car['model']}')" class="ml-auto mr-auto block mt-4 px-4 py-2 font-semibold text-sm bg-main hover:bg-purple-500 text-white rounded-full shadow-sm">Add To Cart</button>
 			</div>
 		`)
 	}
 	console.log(cars)
 });
+
+function addToCart(model){
+	$.post("/php/addToCart.php", {"model":model}, function(result){
+		let response = JSON.parse(result)
+		if(response.message){
+			alert(response.message)
+		}else{
+			alert('Unable to connect to Database.')
+		}
+		
+	});
+}
